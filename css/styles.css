@@ -40,4 +40,32 @@
    padding: 20px;
    text-align: center;
 }
-
+.contact {
+   color: white;
+   background-image: url(https://ryanwoodring.files.wordpress.com/2012/06/sugimoto-trylon-theatre-new-york-1976.jpg);
+   height: 500px;
+   padding: 250px;
+   padding-top: 100px;
+}
+#name {
+   width: 250px;
+   background-color: transparent;
+   color: white;
+}
+#email {
+   width: 250px;
+   background-color: transparent;
+   color: white;
+}
+#messages {
+   background-color: transparent;
+   width: 500px;
+   height: 250px;
+   color: white;
+}
+.mess {
+   padding: 20px;
+}
+img {
+   font-weight: lighter;
+}
