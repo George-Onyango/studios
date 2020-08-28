@@ -18,3 +18,21 @@
    display: flexbox;
    text-align: center;
 }
+.service {
+   display: flexbox;
+   text-align: center;
+   background-image: url(https://cdn.pocket-lint.com/r/s/970x/assets/images/151520-laptops-review-apple-macbook-air-2020-initial-review-keyboard-dreams-image1-ofvv27hfqc-jpg.webp);
+   height: 500px;
+}
+.bg-text {
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+   color: white;
+   font-weight: bold;
+   border: 3px solid #f1f1f1;
+   position: relative;
+   z-index: 2;
+   width: 80%;
+   padding: 20px;
+   text-align: center;
+}
