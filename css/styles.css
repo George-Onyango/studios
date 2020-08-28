@@ -7,3 +7,14 @@
    text-align: center;
    float: center;
 }
+.float {
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.about {
+   display: flexbox;
+   text-align: center;
+}
