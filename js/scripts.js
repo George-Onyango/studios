@@ -6,21 +6,18 @@ $(document).ready(function() {
     $('#pale').click(function() {
         $('#lik').toggle();
     });
-});
-
-$(document).ready(function() {
     $("#promen").click(function() {
         $("#pile").toggle();
     });
+    $("#submit").click(function(event) {
+        var client = $("#nameDetail").val();
+        alert(' Dear ' + ' esteemed ' + client + ' we have received your message successful. ' + ' Feel free to reach out to us anytime');
+        event.preventDefault();
+    });
+    $(".card").hover(function() {
+        $()
+    })
 });
 
-// Prevent form submisson
-$("button").click(function(event) {
-    var client = document.getElementById("name").value();
-    alert(' Dear ' + ' esteemed ' + client + ' we have received your message successful. ' + ' Feel free to reach out to us anytime');
-    event.preventDefault();
-});
 
-$(".card").hover(function() {
-    $()
-})
+
