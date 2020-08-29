@@ -5,8 +5,11 @@ $(document).ready(function() {
     $('#pale').click(function() {
         $('#lik').toggle();
     });
-    $('#mame').click(function() {
-        $('pil').toggle();
+});
+
+$(document).ready(function() {
+    $("#promen").click(function() {
+        $("#pile").toggle();
     });
 });
   
