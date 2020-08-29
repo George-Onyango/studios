@@ -1,3 +1,4 @@
+// What we do function
 $(document).ready(function() {
     $('#please').click(function() {
         $('#jil').toggle();
@@ -12,10 +13,14 @@ $(document).ready(function() {
         $("#pile").toggle();
     });
 });
-  
+
+// Prevent form submisson
 $("button").click(function(event) {
     var client = document.getElementById("name").value();
     alert(' Dear ' + ' esteemed ' + client + ' we have received your message successful. ' + ' Feel free to reach out to us anytime');
     event.preventDefault();
 });
 
+$(".card").hover(function() {
+    $()
+})
